@@ -4,7 +4,7 @@ class temp{
   int t;
   public:
     void input(){
-      cout<<"enter the temperature in celsius:/n";
+      cout<<"enter the temperature in celsius:\n";
       cin>>t;
     }
     
