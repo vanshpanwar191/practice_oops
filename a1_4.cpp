@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 struct student{
+  string name;
   int rn;
   string deg;
   string hostel;
@@ -8,6 +9,10 @@ struct student{
 };
   void adddetails(student *n,int size){
     for(int i=0;i<size;i++){
+      cout<<"enter the name:\n";
+      cin.ignore();
+      getline(cin,n[i].name);
+      
       cout<<"enter the roll number:\n";
       cin>>n[i].rn;
       cout<<"enter the degree:\n";
