@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+inline void cube(int a){
+  int vol=a*a*a;
+  cout<<"volume is ="<<" "<<vol;
+}
+int main(){
+  int n;
+  cout<<"enter the lenght of side:\n";
+  cin>>n;
+  cube(n);
+}
