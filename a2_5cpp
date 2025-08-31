@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int x=10;
+class A{
+ public:
+  static int x;
+   int x=6;
+  void display(){
+    cout<<"local x="<<x<<"\n";
+    cout<<"global x="<<::x<<"\n";
+    
+  }  
+};
+static int x=5;
+int main(){
+  A ob;
+  ob.display();
+  cout<<"static x="<<x;
+}
