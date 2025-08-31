@@ -10,11 +10,11 @@ class A{
       for(int i=0;i<size;i++){
       
       cout<<"enter the lenght:\n";
-      cin>>l;
+      cin>>s[i].l;
       
       cout<<"enter the breadth:\n";
-      cin>>b;
-      ar=(l*b);
+      cin>>s[i].b;
+      s[i].ar=s[i].l*s[i].b);
       }
     }
    static void display(A *s,int size){
